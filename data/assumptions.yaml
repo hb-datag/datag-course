@@ -1,0 +1,20 @@
+# Flat key/value assumptions shared by every notebook.
+# Each key: value, unit, module (owner), changed (ISO date), note (optional).
+discount_rate:
+  value: 0.10
+  unit: "per year"
+  module: 12
+  changed: 2026-09-04
+  note: Nominal rate for NPV and real options. Revisit in module 12.
+target_population_us:
+  value: 1200000
+  unit: patients
+  module: 2
+  changed: 2026-09-04
+  note: Placeholder until the clinical need analysis in module 2.
+device_unit_cost:
+  value: 85
+  unit: USD
+  module: 12
+  changed: 2026-09-04
+  note: Rough order of magnitude at volume. Owned by the financial model.

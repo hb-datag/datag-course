@@ -1,0 +1,167 @@
+[
+  {
+    "n": 1,
+    "title": "Decisions under uncertainty and the progress app",
+    "week_start": "2026-08-31",
+    "week_end": "2026-09-06",
+    "status": "In progress",
+    "milestone": "App v1, DL-001",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-01.ipynb",
+    "verdict": "Pending: baseline crisp model built; fuzzy comparison due with the module 1 update."
+  },
+  {
+    "n": 2,
+    "title": "Quantifying clinical need",
+    "week_start": "2026-09-07",
+    "week_end": "2026-09-13",
+    "status": "Not started",
+    "milestone": "M1, UC Engagement 1",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-02.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 3,
+    "title": "Design controls and QFD",
+    "week_start": "2026-09-14",
+    "week_end": "2026-09-20",
+    "status": "Not started",
+    "milestone": "",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-03.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 4,
+    "title": "Risk: FMEA, fuzzy FMEA, fault trees",
+    "week_start": "2026-09-21",
+    "week_end": "2026-09-27",
+    "status": "Not started",
+    "milestone": "M2",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-04.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 5,
+    "title": "Concept selection and multi-attribute decisions",
+    "week_start": "2026-09-28",
+    "week_end": "2026-10-04",
+    "status": "Not started",
+    "milestone": "",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-05.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 6,
+    "title": "Optimization and DOE",
+    "week_start": "2026-10-05",
+    "week_end": "2026-10-11",
+    "status": "Not started",
+    "milestone": "M3, UC Engagement 2",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-06.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 7,
+    "title": "Reliability, tolerances, verification statistics",
+    "week_start": "2026-10-12",
+    "week_end": "2026-10-18",
+    "status": "Not started",
+    "milestone": "",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-07.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 8,
+    "title": "Clinical evidence and regulatory pathway",
+    "week_start": "2026-10-19",
+    "week_end": "2026-10-25",
+    "status": "Not started",
+    "milestone": "Midterm",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-08.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 9,
+    "title": "Stage-gates and value of information",
+    "week_start": "2026-10-26",
+    "week_end": "2026-11-01",
+    "status": "Not started",
+    "milestone": "",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-09.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 10,
+    "title": "Market sizing and Bass diffusion",
+    "week_start": "2026-11-02",
+    "week_end": "2026-11-08",
+    "status": "Not started",
+    "milestone": "M4",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-10.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 11,
+    "title": "Health economics and reimbursement",
+    "week_start": "2026-11-09",
+    "week_end": "2026-11-15",
+    "status": "Not started",
+    "milestone": "",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-11.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 12,
+    "title": "Financial modeling and real options",
+    "week_start": "2026-11-16",
+    "week_end": "2026-11-22",
+    "status": "Not started",
+    "milestone": "M5",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-12.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 13,
+    "title": "Go-to-market math",
+    "week_start": "2026-11-23",
+    "week_end": "2026-11-29",
+    "status": "Not started",
+    "milestone": "UC Engagement 3, Thanksgiving week",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-13.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 14,
+    "title": "Integration and global sensitivity",
+    "week_start": "2026-11-30",
+    "week_end": "2026-12-06",
+    "status": "Not started",
+    "milestone": "M6, UC Engagement 4",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-14.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  },
+  {
+    "n": 15,
+    "title": "Final paper and live demo",
+    "week_start": "2026-12-07",
+    "week_end": "2026-12-12",
+    "status": "Not started",
+    "milestone": "Final paper due Dec 12",
+    "deck_url": "",
+    "notebook_path": "notebooks/module-15.ipynb",
+    "verdict": "Pending: crisp and fuzzy results will be compared once the module analysis is complete."
+  }
+]

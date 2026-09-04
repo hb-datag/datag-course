@@ -1,0 +1,17 @@
+[
+  {
+    "id": "DL-001",
+    "date": "2026-09-04",
+    "module": 1,
+    "context": "Select the biomedical device that anchors every module of the course. The device must be rich enough to support risk, reliability, market and financial analysis, and must fit a 15 week scope.",
+    "options": [
+      "Candidate A: to be proposed",
+      "Candidate B: to be proposed",
+      "Candidate C: to be proposed"
+    ],
+    "crisp": "Pending. Weighted scoring across scope fit, data availability, regulatory clarity and advisor interest.",
+    "fuzzy": "Pending. Same criteria with triangular membership functions to expose how sensitive the ranking is to the weights.",
+    "decision": "Pending discussion with Dr. Cohen.",
+    "consequences": "Locks the running example for modules 2 through 15. A change after module 3 would require reworking the QFD and FMEA artifacts."
+  }
+]
