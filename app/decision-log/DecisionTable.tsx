@@ -12,7 +12,26 @@ export default function DecisionTable({ entries }: { entries: DecisionEntry[] })
   const [open, setOpen] = useState<string | null>(null);
   if (entries.length === 0) return <p className="text-grey">No entries yet.</p>;
   return (
-    <div className="overflow-x-auto">
+    <>
+    <div className="md:hidden">
+      {entries.map((e) => (
+        <div key={e.id} className="rule pt-4 mb-6">
+          <div className="flex flex-wrap gap-x-4 text-grey mb-2">
+            <span className="mono text-ink">{e.id}</span>
+            <span>{fmtDate(e.date)}</span>
+            <Link href={`/module/${e.module}`}>Module {e.module}</Link>
+          </div>
+          <p><span className="smallcaps">Context</span><br />{e.context}</p>
+          <p><span className="smallcaps">Options</span></p>
+          <ol className="list-decimal ml-5 mb-4">{e.options.map((o, i) => <li key={i}>{o}</li>)}</ol>
+          <p><span className="smallcaps">Crisp result</span><br />{e.crisp}</p>
+          <p><span className="smallcaps">Fuzzy result</span><br />{e.fuzzy}</p>
+          <p><span className="smallcaps">Decision</span><br />{e.decision}</p>
+          <p><span className="smallcaps">Consequences</span><br />{e.consequences}</p>
+        </div>
+      ))}
+    </div>
+    <div className="overflow-x-auto hidden md:block">
       <table className="ruled min-w-[880px]">
         <thead>
           <tr className="smallcaps">
@@ -68,5 +87,6 @@ export default function DecisionTable({ entries }: { entries: DecisionEntry[] })
         </tbody>
       </table>
     </div>
+    </>
   );
 }
