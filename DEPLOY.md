@@ -1,4 +1,6 @@
-# First deploy to Vercel and GitHub
+# Deploy notes
+
+Status on 4 Sep 2026: repo is at https://github.com/hb-datag/datag-course, the Vercel project `datag-course` is live at https://datag-course.vercel.app, and `course.datag.co` is attached and waiting on the DNS record in step 4. Steps 1 to 3 are kept for reference or for a rebuild.
 
 Prerequisites on your machine: Node 20 or newer, git, and (optional but recommended) the GitHub CLI `gh`.
 
@@ -41,7 +43,9 @@ Add one record:
 
 | Type  | Host / Name | Value                   | TTL  |
 |-------|-------------|-------------------------|------|
-| CNAME | course      | cname.vercel-dns.com    | auto |
+| CNAME | course      | 3b1be9a585132ef6.vercel-dns-017.com. | auto |
+
+(This is the value Vercel assigned to the project. The legacy value `cname.vercel-dns.com` also works.)
 
 Vercel issues the TLS certificate automatically once the CNAME resolves (usually 5 to 30 minutes, up to 48 hours on slow registrars). Check with:
 
