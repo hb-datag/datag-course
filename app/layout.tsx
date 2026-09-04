@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Mathematical Decision Making in Biomedical Device Development",
   description:
-    "Progress tracker for a 15 week PhD independent study by Haidar Bin Hamid, University of Cincinnati, Fall 2026.",
+    "Progress tracker for a 15 week PhD reading course by Haidar Bin Hamid, University of Cincinnati, Fall 2026.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
