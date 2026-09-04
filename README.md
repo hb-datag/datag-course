@@ -1,6 +1,6 @@
 # datag-course
 
-Public progress tracker for **Mathematical Decision Making in Biomedical Device Development**, a 15 week PhD independent study by Haidar Bin Hamid (Biomedical Engineering, University of Cincinnati), advised by Dr. Kelly Cohen, AI Bio Lab. Fall 2026, 31 Aug to 12 Dec.
+Public progress tracker for **Mathematical Decision Making in Biomedical Device Development**, a 15 week PhD reading course by Haidar Bin Hamid (Biomedical Engineering, University of Cincinnati), advised by Dr. Kelly Cohen, AI Bio Lab. Fall 2026, 31 Aug to 12 Dec.
 
 Live site: https://course.datag.co
 
