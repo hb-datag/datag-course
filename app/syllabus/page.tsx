@@ -16,7 +16,7 @@ export default function SyllabusPage() {
       <div className="smallcaps mb-2">Course document</div>
       <h1 className="masthead">Syllabus</h1>
       <p className="text-grey mt-3">
-        Mathematical Decision Making in Biomedical Device Development. Independent study, 15 weeks, 31 Aug to 12 Dec 2026. Advisor: Dr. Kelly Cohen, AI Bio Lab.
+        Mathematical Decision Making in Biomedical Device Development. Reading course, 15 weeks, 31 Aug to 12 Dec 2026. Advisor: Dr. Kelly Cohen, AI Bio Lab.
       </p>
 
       <h2>Grading</h2>
