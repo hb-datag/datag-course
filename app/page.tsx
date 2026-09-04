@@ -13,7 +13,7 @@ export default function StatusBoard() {
     <>
       <Masthead />
       <section className="measure px-5 mt-8">
-        <div className="flex justify-between text-grey mb-2">
+        <div className="flex flex-wrap justify-between gap-x-4 text-grey mb-2">
           <span>
             Progress: <span className="mono text-ink">{submitted}</span> of <span className="mono text-ink">{modules.length}</span> modules submitted
           </span>
@@ -26,7 +26,23 @@ export default function StatusBoard() {
 
       <section className="wide px-5 mt-10">
         <div className="smallcaps mb-3">Status board</div>
-        <div className="overflow-x-auto">
+        <div className="md:hidden">
+          {modules.map((m) => (
+            <div key={m.n} className="rule py-4">
+              <div className="flex gap-3">
+                <span className="mono text-grey">{pad2(m.n)}</span>
+                <div>
+                  <Link href={`/module/${m.n}`} className="text-ink">{m.title}</Link>
+                  <div className="text-grey">{fmtRange(m.week_start, m.week_end)}</div>
+                  <div className="mt-1"><StatusDot status={m.status} /></div>
+                  {m.milestone ? <div className="text-grey">{m.milestone}</div> : null}
+                </div>
+              </div>
+            </div>
+          ))}
+          <div className="rule" />
+        </div>
+        <div className="overflow-x-auto hidden md:block">
           <table className="ruled min-w-[640px]">
             <thead>
               <tr className="smallcaps">
